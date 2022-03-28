@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD11E310277F5F1F00DB6F78 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11E30F277F5F1F00DB6F78 /* Account.swift */; };
+		CD3464F5277AFE6000CC88D8 /* GnuCashViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3464F4277AFE6000CC88D8 /* GnuCashViewerApp.swift */; };
+		CD3464F7277AFE6000CC88D8 /* GnuCashViewerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3464F6277AFE6000CC88D8 /* GnuCashViewerDocument.swift */; };
+		CD3464F9277AFE6000CC88D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3464F8277AFE6000CC88D8 /* ContentView.swift */; };
+		CD3464FB277AFE6100CC88D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3464FA277AFE6100CC88D8 /* Assets.xcassets */; };
+		CD3464FE277AFE6100CC88D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3464FD277AFE6100CC88D8 /* Preview Assets.xcassets */; };
+		CD346509277AFE6100CC88D8 /* GnuCashViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD346508277AFE6100CC88D8 /* GnuCashViewerTests.swift */; };
+		CD346513277AFE6100CC88D8 /* GnuCashViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD346512277AFE6100CC88D8 /* GnuCashViewerUITests.swift */; };
+		CD346515277AFE6100CC88D8 /* GnuCashViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD346514277AFE6100CC88D8 /* GnuCashViewerUITestsLaunchTests.swift */; };
+		CD9160B7277DE7B700F15B1E /* GZIP in Frameworks */ = {isa = PBXBuildFile; productRef = CD9160B6277DE7B700F15B1E /* GZIP */; };
+		CD9160BB277DF15700F15B1E /* XMLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9160BA277DF15700F15B1E /* XMLHandler.swift */; };
+		CDDF7D572784F0C9003D7176 /* ChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF7D562784F0C9003D7176 /* ChildrenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD346505277AFE6100CC88D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3464E9277AFE6000CC88D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3464F0277AFE6000CC88D8;
+			remoteInfo = GnuCashViewer;
+		};
+		CD34650F277AFE6100CC88D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3464E9277AFE6000CC88D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3464F0277AFE6000CC88D8;
+			remoteInfo = GnuCashViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD11E30F277F5F1F00DB6F78 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CD3464F1277AFE6000CC88D8 /* GnuCashViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GnuCashViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3464F4277AFE6000CC88D8 /* GnuCashViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuCashViewerApp.swift; sourceTree = "<group>"; };
+		CD3464F6277AFE6000CC88D8 /* GnuCashViewerDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuCashViewerDocument.swift; sourceTree = "<group>"; };
+		CD3464F8277AFE6000CC88D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD3464FA277AFE6100CC88D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3464FD277AFE6100CC88D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD3464FF277AFE6100CC88D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD346504277AFE6100CC88D8 /* GnuCashViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnuCashViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD346508277AFE6100CC88D8 /* GnuCashViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuCashViewerTests.swift; sourceTree = "<group>"; };
+		CD34650E277AFE6100CC88D8 /* GnuCashViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnuCashViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD346512277AFE6100CC88D8 /* GnuCashViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuCashViewerUITests.swift; sourceTree = "<group>"; };
+		CD346514277AFE6100CC88D8 /* GnuCashViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnuCashViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD346541277DD34000CC88D8 /* GnuCashViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GnuCashViewer.entitlements; sourceTree = "<group>"; };
+		CD9160BA277DF15700F15B1E /* XMLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLHandler.swift; sourceTree = "<group>"; };
+		CDDF7D562784F0C9003D7176 /* ChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3464EE277AFE6000CC88D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9160B7277DE7B700F15B1E /* GZIP in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD346501277AFE6100CC88D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34650B277AFE6100CC88D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3464E8277AFE6000CC88D8 = {
+			isa = PBXGroup;
+			children = (
+				CD3464F3277AFE6000CC88D8 /* GnuCashViewer */,
+				CD346507277AFE6100CC88D8 /* GnuCashViewerTests */,
+				CD346511277AFE6100CC88D8 /* GnuCashViewerUITests */,
+				CD3464F2277AFE6000CC88D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3464F2277AFE6000CC88D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3464F1277AFE6000CC88D8 /* GnuCashViewer.app */,
+				CD346504277AFE6100CC88D8 /* GnuCashViewerTests.xctest */,
+				CD34650E277AFE6100CC88D8 /* GnuCashViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3464F3277AFE6000CC88D8 /* GnuCashViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CD346541277DD34000CC88D8 /* GnuCashViewer.entitlements */,
+				CD3464F4277AFE6000CC88D8 /* GnuCashViewerApp.swift */,
+				CD3464F6277AFE6000CC88D8 /* GnuCashViewerDocument.swift */,
+				CD11E30F277F5F1F00DB6F78 /* Account.swift */,
+				CD9160BA277DF15700F15B1E /* XMLHandler.swift */,
+				CD3464F8277AFE6000CC88D8 /* ContentView.swift */,
+				CDDF7D562784F0C9003D7176 /* ChildrenView.swift */,
+				CD3464FA277AFE6100CC88D8 /* Assets.xcassets */,
+				CD3464FF277AFE6100CC88D8 /* Info.plist */,
+				CD3464FC277AFE6100CC88D8 /* Preview Content */,
+			);
+			path = GnuCashViewer;
+			sourceTree = "<group>";
+		};
+		CD3464FC277AFE6100CC88D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD3464FD277AFE6100CC88D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD346507277AFE6100CC88D8 /* GnuCashViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD346508277AFE6100CC88D8 /* GnuCashViewerTests.swift */,
+			);
+			path = GnuCashViewerTests;
+			sourceTree = "<group>";
+		};
+		CD346511277AFE6100CC88D8 /* GnuCashViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD346512277AFE6100CC88D8 /* GnuCashViewerUITests.swift */,
+				CD346514277AFE6100CC88D8 /* GnuCashViewerUITestsLaunchTests.swift */,
+			);
+			path = GnuCashViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3464F0277AFE6000CC88D8 /* GnuCashViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD346518277AFE6100CC88D8 /* Build configuration list for PBXNativeTarget "GnuCashViewer" */;
+			buildPhases = (
+				CD3464ED277AFE6000CC88D8 /* Sources */,
+				CD3464EE277AFE6000CC88D8 /* Frameworks */,
+				CD3464EF277AFE6000CC88D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GnuCashViewer;
+			packageProductDependencies = (
+				CD9160B6277DE7B700F15B1E /* GZIP */,
+			);
+			productName = GnuCashViewer;
+			productReference = CD3464F1277AFE6000CC88D8 /* GnuCashViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD346503277AFE6100CC88D8 /* GnuCashViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD34651B277AFE6100CC88D8 /* Build configuration list for PBXNativeTarget "GnuCashViewerTests" */;
+			buildPhases = (
+				CD346500277AFE6100CC88D8 /* Sources */,
+				CD346501277AFE6100CC88D8 /* Frameworks */,
+				CD346502277AFE6100CC88D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD346506277AFE6100CC88D8 /* PBXTargetDependency */,
+			);
+			name = GnuCashViewerTests;
+			productName = GnuCashViewerTests;
+			productReference = CD346504277AFE6100CC88D8 /* GnuCashViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD34650D277AFE6100CC88D8 /* GnuCashViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD34651E277AFE6100CC88D8 /* Build configuration list for PBXNativeTarget "GnuCashViewerUITests" */;
+			buildPhases = (
+				CD34650A277AFE6100CC88D8 /* Sources */,
+				CD34650B277AFE6100CC88D8 /* Frameworks */,
+				CD34650C277AFE6100CC88D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD346510277AFE6100CC88D8 /* PBXTargetDependency */,
+			);
+			name = GnuCashViewerUITests;
+			productName = GnuCashViewerUITests;
+			productReference = CD34650E277AFE6100CC88D8 /* GnuCashViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3464E9277AFE6000CC88D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CD3464F0277AFE6000CC88D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CD346503277AFE6100CC88D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CD3464F0277AFE6000CC88D8;
+					};
+					CD34650D277AFE6100CC88D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CD3464F0277AFE6000CC88D8;
+					};
+				};
+			};
+			buildConfigurationList = CD3464EC277AFE6000CC88D8 /* Build configuration list for PBXProject "GnuCashViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3464E8277AFE6000CC88D8;
+			packageReferences = (
+				CD9160B5277DE7B700F15B1E /* XCRemoteSwiftPackageReference "GZIP" */,
+			);
+			productRefGroup = CD3464F2277AFE6000CC88D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3464F0277AFE6000CC88D8 /* GnuCashViewer */,
+				CD346503277AFE6100CC88D8 /* GnuCashViewerTests */,
+				CD34650D277AFE6100CC88D8 /* GnuCashViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3464EF277AFE6000CC88D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3464FE277AFE6100CC88D8 /* Preview Assets.xcassets in Resources */,
+				CD3464FB277AFE6100CC88D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD346502277AFE6100CC88D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34650C277AFE6100CC88D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3464ED277AFE6000CC88D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11E310277F5F1F00DB6F78 /* Account.swift in Sources */,
+				CD3464F7277AFE6000CC88D8 /* GnuCashViewerDocument.swift in Sources */,
+				CD3464F5277AFE6000CC88D8 /* GnuCashViewerApp.swift in Sources */,
+				CDDF7D572784F0C9003D7176 /* ChildrenView.swift in Sources */,
+				CD9160BB277DF15700F15B1E /* XMLHandler.swift in Sources */,
+				CD3464F9277AFE6000CC88D8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD346500277AFE6100CC88D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD346509277AFE6100CC88D8 /* GnuCashViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34650A277AFE6100CC88D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD346515277AFE6100CC88D8 /* GnuCashViewerUITestsLaunchTests.swift in Sources */,
+				CD346513277AFE6100CC88D8 /* GnuCashViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD346506277AFE6100CC88D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3464F0277AFE6000CC88D8 /* GnuCashViewer */;
+			targetProxy = CD346505277AFE6100CC88D8 /* PBXContainerItemProxy */;
+		};
+		CD346510277AFE6100CC88D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3464F0277AFE6000CC88D8 /* GnuCashViewer */;
+			targetProxy = CD34650F277AFE6100CC88D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD346516277AFE6100CC88D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD346517277AFE6100CC88D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD346519277AFE6100CC88D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GnuCashViewer/GnuCashViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GnuCashViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = NN3NKG2LXT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GnuCashViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansapa.GnuCashViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD34651A277AFE6100CC88D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GnuCashViewer/GnuCashViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GnuCashViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = NN3NKG2LXT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GnuCashViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansapa.GnuCashViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD34651C277AFE6100CC88D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NN3NKG2LXT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansapa.GnuCashViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GnuCashViewer.app/GnuCashViewer";
+			};
+			name = Debug;
+		};
+		CD34651D277AFE6100CC88D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NN3NKG2LXT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansapa.GnuCashViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GnuCashViewer.app/GnuCashViewer";
+			};
+			name = Release;
+		};
+		CD34651F277AFE6100CC88D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NN3NKG2LXT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansapa.GnuCashViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GnuCashViewer;
+			};
+			name = Debug;
+		};
+		CD346520277AFE6100CC88D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NN3NKG2LXT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansapa.GnuCashViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GnuCashViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3464EC277AFE6000CC88D8 /* Build configuration list for PBXProject "GnuCashViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD346516277AFE6100CC88D8 /* Debug */,
+				CD346517277AFE6100CC88D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD346518277AFE6100CC88D8 /* Build configuration list for PBXNativeTarget "GnuCashViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD346519277AFE6100CC88D8 /* Debug */,
+				CD34651A277AFE6100CC88D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD34651B277AFE6100CC88D8 /* Build configuration list for PBXNativeTarget "GnuCashViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD34651C277AFE6100CC88D8 /* Debug */,
+				CD34651D277AFE6100CC88D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD34651E277AFE6100CC88D8 /* Build configuration list for PBXNativeTarget "GnuCashViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD34651F277AFE6100CC88D8 /* Debug */,
+				CD346520277AFE6100CC88D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD9160B5277DE7B700F15B1E /* XCRemoteSwiftPackageReference "GZIP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/GZIP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD9160B6277DE7B700F15B1E /* GZIP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD9160B5277DE7B700F15B1E /* XCRemoteSwiftPackageReference "GZIP" */;
+			productName = GZIP;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CD3464E9277AFE6000CC88D8 /* Project object */;
+}

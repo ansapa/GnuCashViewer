@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GZIP",
+        "repositoryURL": "https://github.com/nicklockwood/GZIP",
+        "state": {
+          "branch": null,
+          "revision": "c45c8526dad61240a79aaff5b1cf6e082d2b90b2",
+          "version": "1.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
